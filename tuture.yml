@@ -1,0 +1,55 @@
+name: 一杯茶的时间，上手 Taro 多端小程序开发
+id: 3962a1b
+github: 'https://github.com/mRcfps/ultra-club'
+created: '2019-12-23T11:56:14.729Z'
+updated: 2019-12-23T12:12:05.974Z
+steps:
+  - name: 起步
+    commit: 873c802
+    diff:
+      - file: .editorconfig
+      - file: .eslintrc
+      - file: .gitignore
+      - file: config/dev.js
+      - file: config/index.js
+      - file: config/prod.js
+      - file: package.json
+        display: true
+      - file: project.config.json
+        display: true
+      - file: src/app.css
+        display: true
+      - file: src/app.jsx
+        display: true
+      - file: src/index.html
+        display: true
+      - file: src/pages/index/index.css
+        display: true
+      - file: src/pages/index/index.jsx
+        display: true
+      - file: yarn.lock
+  - name: React 代码，熟悉的味道
+    commit: 94dd415
+    diff:
+      - file: .eslintrc
+      - file: .prettierrc
+      - file: package.json
+        display: true
+      - file: src/components/PostCard/index.css
+        display: true
+      - file: src/components/PostCard/index.jsx
+        display: true
+      - file: src/components/PostForm/index.css
+        display: true
+      - file: src/components/PostForm/index.jsx
+        display: true
+      - file: src/components/index.jsx
+        display: true
+      - file: src/pages/index/index.jsx
+        display: true
+      - file: yarn.lock
+  - name: Hooks 轻装上阵
+    commit: c0d6b9e
+    diff:
+      - file: src/pages/index/index.jsx
+        display: true
